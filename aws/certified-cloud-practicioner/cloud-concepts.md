@@ -62,4 +62,4 @@ Customer retains control over which region the data is located. This is because 
 
 
 
-[Next](core-services.md)
+[Next (Core AWS Services)](core-services.md)
