@@ -11,8 +11,8 @@ I followed these materials:
 
 ## Sections
 
-- Cloud Concepts
-- Core Services
-- Security
-- Architecting
-- Pricing & Support
+- [Cloud Concepts](cloud-concepts.md)
+- [Core Services](core-services.md)
+- [Security](security.md)
+- [Architecting](architecting.md)
+- [Pricing & Support](pricing.md)
