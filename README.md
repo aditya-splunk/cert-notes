@@ -1,2 +1,2 @@
 # cert-notes
-My AWS Certification notes
+My notes for all the certification exams.
