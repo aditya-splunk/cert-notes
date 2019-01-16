@@ -59,3 +59,7 @@ You can scale up/down the resources with a few clicks resulting in faster deploy
 ## Security & Compliance
 
 Customer retains control over which region the data is located. This is because there can be regional data compliance requirements. Before AWS, the audits would be long & expensive. AWS provides governance capabilites for monitoring & taking actions. They also provide industry-leading capabilites that pass the strictest compliance requirements.
+
+
+
+[Next](core-services.md)
