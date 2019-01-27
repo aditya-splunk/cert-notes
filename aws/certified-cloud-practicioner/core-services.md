@@ -86,3 +86,7 @@ It is a private network in the cloud, using same concepts as on-prem networking.
 - NAT gateway for allowing private subnet resources to access Internet.
 
 - NACLs for controlling access to subnets and it is stateless.
+
+**Security Groups:**
+
+- 
