@@ -65,5 +65,24 @@ This is a collection of datacentres in a region. Note that a single AZ can be co
 
 This is basically a Content Delivery Network (CDN) point for the region. They are a lot more than the AZs. They serve a purpose of caching the content so the audience in the region can have the content at a very low latency.
 
-## Virtual Private Cloud (VPCs)
+## Virtual Private Cloud (VPC)
 
+AWS Offers a variety of services in compute, storage, network, databases, application services etc. These resources are needed to be accessed via the IP protocols. Customers need to adhere to networking requirements for creating a compliant and secure cloud. Amazon VPC offers a logical separation & isolation of the resources through networking. It is a networking service for providing networking capabilites to customers.
+
+It is a private network in the cloud, using same concepts as on-prem networking. You have complete control over the configuration. It offers several layers of security controls (eg. subnets, Network ACLs (NACL), custom route tables)to allow/deny specific internal & internet traffic. Other AWS services also deploy in VPC (eg. RDS, EC2, ELB etc.)
+
+**Features of VPC:**
+
+- This is built upon the high availability of AWS Regions & AZs.
+  - A VPC lives within a region
+  - Multiple VPCs per account (actual no. is 5, which is a soft limit)
+
+- Subnets which are used to divide VPC and allowing VPC to span to multiple AZs (soft limit of subnets is 200)
+
+- Route tables for controlling traffic outside of subnets.
+
+- Internet Gateway (IGW) for allowing Internet access from VPC.
+
+- NAT gateway for allowing private subnet resources to access Internet.
+
+- NACLs for controlling access to subnets and it is stateless.
